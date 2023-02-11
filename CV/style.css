@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 50px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.container .left_Side{
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    height: 300px;
+}
+
+.container .leftdown_Side{
+    position: relative;
+    background: black
+    ;
+    padding: 40px;
+    height: 1500px;
+}
+.container .leftdown_Side ul{
+    position: relative;
+    margin: 0;
+    font-size: 22px;
+    
+    
+}
+.container .leftdown_Side ul li{
+    list-style: none;
+    
+    
+}
+
+.container .right_Side{
+    position: relative;
+    background: black;
+    padding: 40px;
+    height: 310px;
+
+}
+
+.text{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+h6{
+    color: antiquewhite;
+    padding-top: 15px;
+    padding-bottom: 20px;
+   
+}
+p{
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+}
+.container .rightdown_Side{
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    height: 1500px;
+    
+}
+.container .box{
+    position: absolute;
+    background-image: url(dong.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    /* width: 250px; */
+    /* height: 250px; */
+    margin: 40px;
+    padding: 210px;
+}
+.container .box .personal{
+    margin-left: 170px;
+    padding-top: 100px;
+    color: rgb(108, 122, 137);
+    font-size: 20px;
+}
+
+.container .box .certificate{
+    margin: auto;
+    color: rgb(108, 122, 137);
+    font-size: 20px;
+}
+
+
+.container .box .personal ul li{
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 510px;
+}
+.container .box .personal h5 {
+    margin-top: 20px;
+}
+.container .box .px1 ul li{
+    list-style: none;
+}
+.container .box .px1 .percent{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: black;
+    display: block;
+    
+
+}
+.container .box .px1 .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: navy;
+}
+.container .box .px1 .signature{
+    margin-left: 240px;
+    margin-top: 25px;
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-image: url(sign.png);
+}
